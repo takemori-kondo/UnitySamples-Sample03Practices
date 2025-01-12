@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using Cysharp.Threading.Tasks;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,20 +24,22 @@ public class DOTweenSample : MonoBehaviour
 
     void Start()
     {
-        _btn00.onClick.AddListener(() =>
+        _btn00.onClick.AddListener(UniTask.UnityAction(async () =>
         {
+            Debug.Log("canvasGroup00 Tween play");
             _isOn00 = !_isOn00;
             if (_isOn00)
             {
-                _canvasGroup00.transform.DOScale(1.0f, _duration_sec).SetEase(Ease.InOutCubic);
-                _canvasGroup00.DOFade(1.0f, _duration_sec);
+                var _ = _canvasGroup00.transform.DOScale(1.0f, _duration_sec).SetEase(Ease.InOutCubic);
+                await _canvasGroup00.DOFade(1.0f, _duration_sec);
             }
             else
             {
-                _canvasGroup00.transform.DOScale(0.0f, _duration_sec).SetEase(Ease.InOutCubic);
-                _canvasGroup00.DOFade(0.0f, _duration_sec);
+                var _ = _canvasGroup00.transform.DOScale(0.0f, _duration_sec).SetEase(Ease.InOutCubic);
+                await _canvasGroup00.DOFade(0.0f, _duration_sec);
             }
-        });
+            Debug.Log("canvasGroup00 Tween complete");
+        }));
         _btn01.onClick.AddListener(() =>
         {
             _isOn01 = !_isOn01;
