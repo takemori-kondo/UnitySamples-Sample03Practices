@@ -1,0 +1,16 @@
+{
+    "name": "Uft.TapEffects",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e2a8a86a8bf02fa4dbfbcdccbdc04536"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
