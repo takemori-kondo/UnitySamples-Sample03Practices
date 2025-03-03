@@ -1,4 +1,5 @@
-﻿using Assets.UnlimitedFairytales.UnityUtils.UI;
+﻿using Assets.UnlimitedFairytales.UnityUtils;
+using Assets.UnlimitedFairytales.UnityUtils.UI;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,8 +14,7 @@ public class MessageBoxSample : MonoBehaviour
 
     void Start()
     {
-        _toastUI = Instantiate(_toastUI_prefab, transform);
-        _toastUI.gameObject.SetActive(false);
+        _toastUI = ComponentUtil.Instantiate(_toastUI_prefab, transform, false, false);
         _button.onClick.AddListener(UniTask.UnityAction(async () =>
         {
             await _toastUI.ShowAsync("Header text", "This is content text.", 5);
