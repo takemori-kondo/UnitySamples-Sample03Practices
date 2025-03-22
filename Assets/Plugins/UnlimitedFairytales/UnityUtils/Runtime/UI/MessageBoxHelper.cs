@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using UnityEngine;
 
-namespace Assets.UnlimitedFairytales.UnityUtils.UI
+namespace UnlimitedFairytales.UnityUtils.UI
 {
     public class MessageBoxHelper<TResult>
     {

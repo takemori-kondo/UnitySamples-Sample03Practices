@@ -2,7 +2,7 @@
 using System.Threading;
 using UnityEngine;
 
-namespace Assets.UnlimitedFairytales.UnityUtils
+namespace UnlimitedFairytales.UnityUtils
 {
     public static class AsyncUtil
     {

@@ -1,5 +1,5 @@
-﻿using Assets.UnlimitedFairytales.UnityUtils;
-using Assets.UnlimitedFairytales.UnityUtils.UI;
+﻿using UnlimitedFairytales.UnityUtils;
+using UnlimitedFairytales.UnityUtils.UI;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;

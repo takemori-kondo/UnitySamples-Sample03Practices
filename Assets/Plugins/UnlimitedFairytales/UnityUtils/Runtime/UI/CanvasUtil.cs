@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.UnlimitedFairytales.UnityUtils.UI
+namespace UnlimitedFairytales.UnityUtils.UI
 {
     public static class CanvasUtil
     {

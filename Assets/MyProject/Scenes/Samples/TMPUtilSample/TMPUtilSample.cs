@@ -1,4 +1,4 @@
-﻿using Assets.UnlimitedFairytales.UnityUtils.UI;
+﻿using UnlimitedFairytales.UnityUtils.UI;
 using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;

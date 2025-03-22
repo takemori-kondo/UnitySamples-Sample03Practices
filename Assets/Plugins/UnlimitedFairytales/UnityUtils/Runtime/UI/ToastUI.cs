@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.UnlimitedFairytales.UnityUtils.UI
+namespace UnlimitedFairytales.UnityUtils.UI
 {
     public class ToastUI : MonoBehaviour
     {
