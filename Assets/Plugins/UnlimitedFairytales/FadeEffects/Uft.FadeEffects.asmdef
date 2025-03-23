@@ -2,9 +2,9 @@
     "name": "Uft.FadeEffects",
     "rootNamespace": "",
     "references": [
-        "GUID:f2dbd9f56b414c049b51b48c5a632f5b",
-        "GUID:f51ebe6a0ceec4240a699833d6309b23",
-        "GUID:029c1c1b674aaae47a6841a0b89ad80e"
+        "DOTween.Modules",
+        "UniTask",
+        "UniTask.DOTween"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
