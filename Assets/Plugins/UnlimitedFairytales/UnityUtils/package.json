@@ -1,0 +1,16 @@
+{
+  "name": "com.unlimited-fairytales.unityutils",
+  "displayName": "UnityUtils",
+  "version": "1.0.0",
+  "unity": "6000.0",
+  "description": "Utilities for unity.",
+  "author": {
+    "name": "Unlimited Fairytales",
+    "url": "https://unlimited-fairytales.com/"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": [ "utility", "utilities" ],
+  "license": "MIT"
+}
